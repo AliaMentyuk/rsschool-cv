@@ -5,10 +5,10 @@
 #### Junior Frontend Developer
 
 #### Contact information:
-*Phone: +375 29 5165987
-*E-mail: amentyuk.19@gmail.com
-*Telegram: @aliasiamenava
-[LinkedIn](https://www.linkedin.com/in/alina-siamenava-450a84218)
+* Phone: +375 29 5165987
+* E-mail: amentyuk.19@gmail.com
+* Telegram: @aliasiamenava
+* [LinkedIn](https://www.linkedin.com/in/alina-siamenava-450a84218)
 
 #### About me:
 
@@ -32,11 +32,11 @@ I have the following skills:
 
 #### Code example:
 
-`function upperFirst(str) {
+```function upperFirst(str) {
   if (!str) return str;
 
   return str[0].toUpperCase() + str.slice(1);
-}`
+}```
 
 #### Courses:
 
@@ -50,5 +50,3 @@ I have the following skills:
 _Civil engineering_
 Bachelor's degree
 _sep 2016 - jul 2021_
-
-#### Experience:
