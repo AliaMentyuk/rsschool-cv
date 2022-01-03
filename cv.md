@@ -32,7 +32,8 @@ I have the following skills:
 
 #### Code example:
 
-```function upperFirst(str) {
+```
+function upperFirst(str) {
   if (!str) return str;
 
   return str[0].toUpperCase() + str.slice(1);
