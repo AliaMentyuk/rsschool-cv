@@ -47,7 +47,4 @@ I have the following skills:
 
 #### Education:
 
-**Yanka Kupala State Univercity of Grodno**
-_Civil engineering_
-Bachelor's degree
-_sep 2016 - jul 2021_
+**Yanka Kupala State Univercity of Grodno**:_Civil engineering_(Bachelor's degree) - _sep 2016 - jul 2021_;
