@@ -38,3 +38,17 @@ I have the following skills:
   return str[0].toUpperCase() + str.slice(1);
 }`
 
+#### Courses:
+
+* Html + Css training in [HTML-academy](https://htmlacademy.ru/);
+* JavaScript course in [Learn JS](https://learn.javascript.ru/courses);
+* [RS School Course](https://rs.school/) "JavaScript/Front-end. Stage 0" (in progress)
+
+#### Education:
+
+**Yanka Kupala State Univercity of Grodno**
+_Civil engineering_
+Bachelor's degree
+_sep 2016 - jul 2021_
+
+#### Experience:
