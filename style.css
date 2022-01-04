@@ -1,0 +1,177 @@
+body{
+    max-width: 1600px;
+    font-family: 'Yanone Kaffeesatz';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(89,80,130);
+background: linear-gradient(176deg, rgba(89,80,130,1) 0%, rgba(219,111,218,1) 35%, rgba(0,255,209,1) 100%);
+}
+a{
+    text-decoration: none;
+}
+p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+.header{
+background-color: rgba(255,255,255, 0.9);
+z-index: 3;
+box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+position: fixed;
+width: 100%;
+}
+nav{
+display: flex;
+justify-content: space-between;
+height: 30px;
+padding: 20px 200px;
+
+font-size: 20px;
+}
+nav a{
+ color: #29214f;   
+}
+
+.about-me{
+    padding: 100px 200px 50px;
+    display: flex;
+}
+.about-me div:first-child{
+    padding-right: 20px;
+}
+.about-me div:last-child{
+    padding-top: 12%;
+}
+
+.avatar{
+    max-width: 250px;
+    border-radius: 5px;
+}
+h2{
+    color: #dbd7f0;
+    font-size: 45px;
+    font-weight: 200;
+    margin: 0;
+line-height: 1;
+
+}
+h3{
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 10px 0;
+}
+h4{
+    color: #dbd7f0;
+    font-size: 45px;
+    font-weight: 200;
+    margin: 0;
+line-height: 1;
+padding-bottom: 30px;
+
+}
+.about-me__desc{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 17px;
+}
+li img{
+    padding-right: 15px;
+    width: 15px;
+    padding-top: 3px;
+}
+.skills-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.skills-list li{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 200px;
+    margin-bottom: 1px;
+    color: #29214f;
+    background-color: rgba(214, 197, 214, 1);
+}
+.skills{
+    padding-bottom: 50px;
+}
+.education{
+    display: flex;
+    padding: 0 200px;
+}
+.education-university{
+    width: 50%;
+}
+.education-experience{
+    width: 50%;
+}
+.title-link{
+    padding: 20px 0 10px 0;
+    
+}
+.project-link {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #29214f;
+}
+
+.project-link:hover{
+    text-decoration: underline;
+}
+.university{
+    padding-bottom: 20px;
+}
+.university__name{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.university__speciality{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.courses_name{
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: block;
+    color: #29214f;
+}
+.courses_name:hover{
+    text-decoration: underline;
+}
+.education-experience p{
+font-size: 20px;
+}
+.footer{
+    background-color: rgba(214, 197, 214, 1);
+    margin-top: 50px;
+}
+.contacts{
+    display: flex;
+justify-content: space-around;
+padding: 30px 10px;
+}
+.footer__image{
+    width: 30px;
+    padding-right: 10px;
+}
+.footer-title{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    color: #29214f;
+}
+.footer__image.logo{
+    width: 50px;
+}

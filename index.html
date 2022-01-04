@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;700&display=swap"
+        rel="stylesheet">
+    <title>CV Alia Siamenava</title>
 </head>
+
 <body>
-    <p>Hello</p>
+    <header class="header">
+        <nav>
+            <a href="#about-me">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+    <main>
+        <div class="about-me" id="about-me">
+            <div>
+                <h2>Alina Siamenava</h2>
+                <h3>Junior Frontend developer</h3>
+                <img class="avatar" src="images/avatar.jpg" alt="">
+            </div>
+            <div>
+                <h4>About Me:</h4>
+                <p class="about-me__desc">With pleasure I got the specialty of civil engineer. Completed 80+ commercial
+                    projects for students. In
+                    the last year I have been seriously studying web development, took HTML coding courses, javascript.
+                    So
+                    far I have completed 5 projects (4 landing pages, 1 WordPress site). I have the following skills:
+                <ul>
+                    <li><img src="images/dot.png" alt="">Fast learning (I complited HTML coding courses in 2 weeks);
+                    </li>
+                    <li><img src="images/dot.png" alt="">Good communication and organizational skills (I was the head of
+                        the students group for 5 years);
+                    </li>
+                    <li><img src="images/dot.png" alt="">Stress tolerance, perseverance and multitasking (At the same
+                        time I did several commercial projects
+                        in a short time);</li>
+                </ul>
+                </p>
+            </div>
+
+        </div><!-- about-me -->
+        <div class="skills" id="skills">
+            <h4>Professional skills:</h4>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Flex</li>
+                <li>Bootstrap</li>
+                <li>JQuery</li>
+                <li>Wordpress</li>
+            </ul>
+        </div>
+        <div class="education" id="education">
+
+            <div class="education-university">
+                <h4>Education:</h4>
+                <div class="university">
+                    <p class="university__name">Yanka Kupala State University in Grodno</p>
+                    <p class="university__speciality">Civil engineer</p>
+                    <p class="university__degree">Bachelor's degree
+                    <p class="university__date">september 2016 - july 2021</p>
+                    </p>
+                </div>
+                <h4>Courses:</h4>
+                <p><a class="courses_name" href="https://htmlacademy.ru/">HTML-academy</a></p>
+                <p><a class="courses_name" href="https://learn.javascript.ru/">Learn JavaScript</a></p>
+
+            </div>
+
+            <div class="education-experience">
+                <h4>Experience</h4>
+                <p>Freelance</p>
+                <p>Jun 2021 - Jan 2022</p>
+                <p>Junior Frontend developer</p>
+                <p class="title-link">My pet-project links:
+                <ul>
+                    <a class="project-link" href="https://aliamentyuk.github.io/test/">click on me</a>
+                    <a class="project-link" href="https://aliamentyuk.github.io/">click on me</a>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="contacts" id="contacts">
+            <a class="contacts-logo footer-title" href="https://rs.school/js/"><img class="footer__image logo" src="https://rs.school/images/rs_school_js.svg"
+                alt=""></a>
+            <a class="contacts-phone footer-title" href="tel:+375295165987"><img class="footer__image" src="images/telephone.png"
+                    alt="">+375 29 516 59 87</a>
+            <a class="contacts-mail footer-title" href="mailto:aliamentyuk.19@gmail.com"><img class="footer__image"
+                    src="images/email.png" alt="">aliamentyuk.19@gmail.com</a>
+            <div class="contacts-dest footer-title"><img class="footer__image" src="images/destination.png" alt="">Grodno</div>
+            <a class="contacts-linkedin footer-title" href="https://www.linkedin.com/in/alina-siamenava-450a84218"><img
+                    class="footer__image" src="images/linkedin.png" alt="">LinkedIn</a>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
